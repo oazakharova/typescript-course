@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2015", // Устанавливает целевую версию JavaScript
+    "module": "commonjs", // Устанавливает систему модулей CommonJS
+    "lib": ["ES2015", "DOM"], // Добавляет поддержку библиотеки ES2015 и DOM
+    "strict": true, // Включает строгий режим проверки типов
+    "esModuleInterop": true, // Разрешает взаимодействие с CommonJS и ECMAScript модулями
+    "skipLibCheck": true, // Пропускает проверку типов для файлов библиотек
+    "forceConsistentCasingInFileNames": true // Требует согласования регистра в именах файлов
+  }
+}
